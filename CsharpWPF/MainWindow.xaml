@@ -1,0 +1,116 @@
+﻿<Window x:Class="TEXT.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TEXT"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="19*"/>
+            <RowDefinition Height="401*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160*"/>
+            <ColumnDefinition Width="33*"/>
+            <ColumnDefinition Width="204*"/>
+        </Grid.ColumnDefinitions>
+
+        <Menu Grid.Column="0" Margin="0,0,-0.4,0.2" Grid.Row="0" Grid.ColumnSpan="3">
+            <MenuItem Header = "_Edit" >
+                <MenuItem Name ="Exit" Header="Exit" Click="MenuItem_Click"/>
+                <MenuItem Command="ApplicationCommands.Cut"/>
+                <MenuItem Command="ApplicationCommands.Paste"/>
+            </MenuItem>
+            <MenuItem Header = "_Options" >
+                <MenuItem Command="ApplicationCommands.Open" Header = "Ширина"/>
+                <MenuItem Command="ApplicationCommands.Cut" Header = "Высота"/>
+                <MenuItem Command="ApplicationCommands.Paste" Header = "Дефолт"/>
+            </MenuItem>
+        </Menu>
+
+
+
+        <TabControl TabStripPlacement="Bottom" Grid.Column="0" Grid.ColumnSpan="3" Margin="0,19,-0.4,-1" Grid.RowSpan="2">
+            <TabItem Header="Current_Info">
+                <Grid>
+                    <Grid.RowDefinitions>
+
+                        <RowDefinition/>
+                        <RowDefinition/>
+
+                    </Grid.RowDefinitions>
+
+                    <Grid.ColumnDefinitions>
+
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Name:" HorizontalAlignment="Left" Margin="43.6,30,0,0" VerticalAlignment="Top" Height="28" Width="57" Grid.Column="1" Grid.Row="0"/>
+                    <Label Content="Surname:" HorizontalAlignment="Left" Margin="43.6,76,0,0" VerticalAlignment="Top" Height="28" Width="59" Grid.Column="1" Grid.Row="0"/>
+                    <Label Content="Othcestvo: " HorizontalAlignment="Left" Margin="43.6,116,0,0" VerticalAlignment="Top" Height="28" Width="71" Grid.Column="1" Grid.Row="0"/>
+                    <Label Content="Имя" HorizontalAlignment="Left" Margin="142.6,30,0,0" VerticalAlignment="Top" Height="28" Width="57" Grid.Column="1" Grid.Row="0" RenderTransformOrigin="1.251,0.379"/>
+                    <Label Content="Фамилия" HorizontalAlignment="Left" Margin="142.6,76,0,0" VerticalAlignment="Top" Height="28" Width="63" Grid.Column="1" Grid.Row="0"/>
+                    <Label Content="Отчество" HorizontalAlignment="Left" Margin="142.6,116,0,0" VerticalAlignment="Top" Height="28" Width="71" Grid.Column="1" Grid.Row="0"/>
+
+
+
+                </Grid>
+            </TabItem>
+
+            <TabItem Header="List" Margin="-1.8,0,-19.6,-2.2">
+
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition>
+                        </ColumnDefinition>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <DataGrid Name ="PersonDataGrid" HorizontalGridLinesBrush="DarkGray"
+    RowBackground="LightGray" AlternatingRowBackground="White" Margin="394,0,0,-22.8" Grid.ColumnSpan="2">
+                        <DataGrid.Items>
+                        </DataGrid.Items>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Фамилия" Binding="{Binding Path=surName}" Width="1*" />
+                            <DataGridTextColumn Header="Имя" Binding="{Binding Path=firstName}" Width="1*" />
+                            <DataGridTextColumn Header="Отчество" Binding="{Binding Path=otchestvo}" Width="1*" />
+                            <DataGridTextColumn Header="Должность" Binding="{Binding Path=position}" Width="1*" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <TreeView Grid.Column="0">
+                        <TextBox>Элемент TreeView</TextBox>
+                        <TreeViewItem Header="Базы данных">
+                            <TreeViewItem Header="MS SQL Server" />
+                            <TreeViewItem Header="MySQL" />
+                            <TreeViewItem Header="MongoDB" />
+                            <TreeViewItem Header="Postgres" />
+                        </TreeViewItem>
+                        <TreeViewItem Header="Языки программирования">
+                            <TreeViewItem Header="C-языки">
+                                <TreeViewItem Header="C#" />
+                                <TreeViewItem Header="C/C++" />
+                                <TreeViewItem Header="Java" />
+                            </TreeViewItem>
+                            <TreeViewItem Header="Basic">
+                                <TreeViewItem Header="Visual Basic" />
+                                <TreeViewItem Header="VB.Net" />
+                                <TreeViewItem Header="PureBasic" />
+                            </TreeViewItem>
+                        </TreeViewItem>
+                    </TreeView>
+                </Grid>
+
+
+
+
+            </TabItem>
+
+        </TabControl>
+
+
+    </Grid>
+</Window>

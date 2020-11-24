@@ -1,0 +1,34 @@
+C:\Users\Vityarka\source\repos\TEXT\TEXT\bin\Debug\TEXT.exe.config
+C:\Users\Vityarka\source\repos\TEXT\TEXT\bin\Debug\TEXT.exe
+C:\Users\Vityarka\source\repos\TEXT\TEXT\bin\Debug\TEXT.pdb
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\TEXT.csprojAssemblyReference.cache
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\MainWindow.g.cs
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\App.g.cs
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\TEXT_MarkupCompile.cache
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\TEXT_MarkupCompile.lref
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\MainWindow.baml
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\TEXT.g.resources
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\TEXT.Properties.Resources.resources
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\TEXT.csproj.GenerateResource.cache
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\TEXT.csproj.CoreCompileInputs.cache
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\TEXT.exe
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\TEXT.pdb
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\Window1.g.cs
+C:\Users\Vityarka\source\repos\TEXT\TEXT\obj\Debug\Window1.baml
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\bin\Debug\TEXT.exe.config
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\bin\Debug\TEXT.exe
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\bin\Debug\TEXT.pdb
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\TEXT.csprojAssemblyReference.cache
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\Window1.g.cs
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\App.g.cs
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\TEXT_MarkupCompile.cache
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\TEXT_MarkupCompile.lref
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\MainWindow.baml
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\Window1.baml
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\TEXT.g.resources
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\TEXT.Properties.Resources.resources
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\TEXT.csproj.GenerateResource.cache
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\TEXT.csproj.CoreCompileInputs.cache
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\TEXT.exe
+C:\Users\Vityarka\Desktop\WS 21.11.2020\CsharpWPF\obj\Debug\TEXT.pdb
